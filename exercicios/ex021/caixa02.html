@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px ;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+            border-radius: 5px;
+            box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.371)
+        }
+
+        nav > p > a {
+            margin:0px 50px 0px 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > p {
+            text-align: center;
+            
+        }
+
+        nav > p > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.371)
+        }
+
+        aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            margin: 0px;
+            padding: 4px;
+            color: white;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neymar pode estar de saída do PSG</h1>
+        <nav>
+            <p>
+                <a href="#">Esportes</a>
+                <a href="#">Política</a>
+                <a href="#">Tecnologia</a>
+            </p>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Rumores indicam que o craque pretende ir para o Santos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi natus fugiat vero consequuntur id dolorem, asperiores adipisci mollitia repellat. Quas eveniet quibusdam cum deserunt suscipit temporibus possimus veniam quaerat ullam.</p>
+                <aside>
+                    <p>Artigo escrito por Fulano de tal</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por SLA</p>
+    </footer>
+
+</body>
+</html>
