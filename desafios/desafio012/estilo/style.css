@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Oswald', sans-serif;
+    --fonte3: 'Kalam', cursive;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +17,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -19,6 +29,8 @@ header {
 header > h1 {
     font-variant: small-caps; /*text-transform: uppercase; -> "TOTALMENTE" EM MAíUSCULA*/
     padding-top: 50px;
+    font-family: var(--fonte2);
+    font-size: 9vw;
 }
 header > p {
     padding-bottom: 50px;
@@ -39,6 +51,9 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte3);
+    font-weight: 700;
+    font-size: 2.5vw;
 }
 
 section.normal {
@@ -53,7 +68,8 @@ section.imagem {
 
 section.imagem p {
     background-color: rgba(0, 0, 0, 0.233);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
